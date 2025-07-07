@@ -20,7 +20,7 @@ public class TestAi {
         Student student1 = new Student();
         student1.setAge(19);
         student1.setName("李四");
-        student1.setAddress("李四");
+        student1.setAddress("湖北");
 
         List<Student> studentList = Lists.newArrayList(student, student1);
 
