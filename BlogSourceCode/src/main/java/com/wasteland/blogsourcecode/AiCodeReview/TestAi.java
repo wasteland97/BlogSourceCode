@@ -29,5 +29,18 @@ public class TestAi {
                 .map(Student::getName)
                 .collect(Collectors.toList());
         System.out.println(nameList);
+
+        int count = count(55);
+        System.out.println(count);
+    }
+
+    private static int count(int number) {
+        int res = 0;
+        for (int i = 0; i < number; i++) {
+            if (i == 44) {
+                res += i;
+            }
+        }
+        return res;
     }
 }
