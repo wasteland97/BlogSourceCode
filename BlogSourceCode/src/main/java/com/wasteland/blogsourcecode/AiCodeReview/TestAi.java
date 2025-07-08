@@ -43,4 +43,14 @@ public class TestAi {
         }
         return res;
     }
+
+    private static int count1(int number) {
+        int res = 0;
+        for (int i = 0; i < number; i++) {
+            if (i == 44) {
+                res += i;
+            }
+        }
+        return res;
+    }
 }
